@@ -1,2 +1,1 @@
-# Typing-Master
-A game to test your typing speed. 
+changes the background color and text of nairaland website 
