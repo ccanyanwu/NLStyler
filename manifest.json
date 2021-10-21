@@ -1,13 +1,13 @@
-{
-  "manifest_version": 2,
- 
+{ 
   "name": "NLStyler",
   "version": "0.1.0",
+  "manifest_version": 2,
   "description": "Changes the background color and text of nairaland page ",
  
   "content_scripts": [{
+    "js": ["content.js"],
     "css": ["styles.css"],
-    "matches": ["https://nairaland.com/*"]
+    "matches": ["*://www.nairaland.com/*"]
   }]
  
 }
