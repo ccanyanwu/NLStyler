@@ -1,5 +1,10 @@
-body{
+.body,
+#up,
+#featured, table{
   background: #333 !important;
   color: #f2f2f2 !important;
 }
-p {color: #f2f2f2 !important;}
+p * {color: #f2f2f2 !important;}
+
+
+.boards th > h3{background-color: aqua !important;}
